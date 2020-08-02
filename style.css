@@ -75,9 +75,7 @@ footer {
 
 @media screen and (max-width: 768px){
   * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  box-sizing:border-box;
 }
 
 .clearfix::after {
@@ -88,25 +86,25 @@ footer {
 
 header {
   height: 50px;
+  margin-bottom: 50px;
   background-color: #ff9a4b;
 }
 
 main {
   width: 100%;
-  margin: 10% auto;
 }
 
 .step-box {
   float: none;
-  width: 100%;
-  margin-right: 20px;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
   padding: 10px;
-  position: relative;
-  background-color: #eee;
-}
+  margin-bottom: 20px;
+ }
 
 .step-box:last-child {
-  margin-right: 0;
+
 }
 
 .step-img1 {
@@ -116,12 +114,14 @@ main {
   background-size: cover;
 }
 
+
 .step-img2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
+
 
 .step-img3 {
   height: 150px;
@@ -145,6 +145,7 @@ main {
 
 footer {
   height: 50px;
+  margin-top: 50px;
   background-color: #aaa;
 }
 }
